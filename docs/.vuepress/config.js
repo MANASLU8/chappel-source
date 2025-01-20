@@ -48,9 +48,12 @@ export default defineUserConfig({
         ]
     },
     repo: 'https://github.com/MANASLU8/chappel-source',
-    editLinks: true,
-    lastUpdated: true,
+    lastUpdated: false,
+    contributors: false,
+    selectLanguageName: true,
+    editLink: false,
     docsDir: 'docs',
+
 
     navbar: [
       {
