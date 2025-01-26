@@ -64,16 +64,15 @@ export default defineUserConfig({
     sidebar: {
       '/task': [
         {
-          title: 'Описание курса',
+          text: 'Описание курса',
           collapsable: false,
           children: [
             '',
-            // 'glossary',
             'materials'
           ]
         },
         {
-          title: 'Лабораторные работы',
+          text: 'Лабораторные работы',
           collapsable: false,
           children: [
             'task/1',
