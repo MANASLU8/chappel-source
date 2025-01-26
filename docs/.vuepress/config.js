@@ -51,7 +51,6 @@ export default defineUserConfig({
     repo: 'https://github.com/MANASLU8/chappel-source',
     lastUpdated: false,
     contributors: false,
-    selectLanguageName: true,
     editLink: false,
     docsDir: 'docs',
 
@@ -63,7 +62,16 @@ export default defineUserConfig({
     ],
 
     sidebar: {
-      '/': [
+      '/task': [
+        {
+          title: 'Описание курса',
+          collapsable: false,
+          children: [
+            '',
+            // 'glossary',
+            'materials'
+          ]
+        },
         {
           title: 'Лабораторные работы',
           collapsable: false,
