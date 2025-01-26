@@ -7,7 +7,7 @@ export default defineUserConfig({
   alias: {
     '@source': 'docs/.vuepress'
   },
-  title: 'Архитектура высоконагруженных систем',
+  title: 'Архитектура высоконагруженных приложений',
   base: "/chappel/",
 
   head: [
@@ -47,13 +47,13 @@ export default defineUserConfig({
             }
         ]
     },
+    // logo: '/logo.png',
     repo: 'https://github.com/MANASLU8/chappel-source',
     lastUpdated: false,
     contributors: false,
     selectLanguageName: true,
     editLink: false,
     docsDir: 'docs',
-
 
     navbar: [
       {
@@ -78,6 +78,7 @@ export default defineUserConfig({
         }
       ]
     },
+
     plugins: [
       '@vuepress/plugin-search',
     ]    

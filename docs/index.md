@@ -1,9 +1,13 @@
 ---
 home: true
-heroText: Архитектура высоконагруженных систем
-heroImage:  /logo.jpg
+heroText: Архитектура высоконагруженных приложений
+heroImage: /logo.png
 tagline: Лабораторные работы
 actionLink: /task/
-# footer: Made by MANASLU8 with ❤️
+actions:
+  - link: /task/
+    text: Начать →
+    type: primary
+footer: Made by MANASLU8 with ❤️
 copyright: Customized copyright text
 ---
