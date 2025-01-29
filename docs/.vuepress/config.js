@@ -68,7 +68,7 @@ export default defineUserConfig({
           collapsable: false,
           children: [
             '',
-            'materials'
+            // 'materials'
           ]
         },
         {
