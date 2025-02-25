@@ -58,6 +58,10 @@ export default defineUserConfig({
       {
         text: 'Задания',
         link: '/task/',
+      },
+      {
+        text: 'Проекты',
+        link: '/project/'
       }
     ],
 
